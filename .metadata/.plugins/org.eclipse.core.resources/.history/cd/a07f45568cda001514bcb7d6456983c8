@@ -1,0 +1,110 @@
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+<!DOCTYPE html>
+<html>
+
+<!--  php to include html code+link + script tags -->
+<?php 
+include "../../common_head_tag_code_include.php";
+?>
+
+<body>
+
+	<?php 
+	include "../../common_image_map_code.html";
+	?>
+
+	<h3>Week 4 - Lab 2 (Part I)</h3>
+	<div id='allowMargins'>
+		<hr>
+		<h4>Enter information about the class.</h4>
+		<p><span class = "explanation">The PHP script that collects and displays this form's data
+		performs validation and displays back error messages if it is not
+		valid. This incomplete lab does not validate the lab-ratio field.</span></p>
+		<form action="lab2_part_2.php" method="post">
+			<table>
+				<tr>
+					<td><p>Enter Course Name</p></td>
+					<td><input name="txt_cname" width="6"></td>
+				</tr>
+				
+				<tr>
+					<td><p>Enter Credit Hours (Must be an integer)</p></td>
+					<td><input name="txt_hours"></td>
+				</tr>
+
+				<tr>
+					<td><p>Select Lab Ratio. Must be between 0.0 and 1.0, and can be a
+							fraction</p></td>
+					<td><input name="txt_lab_ratio"></td>
+				</tr>
+				
+				<tr>
+					<td>Are you a Faculty member?</td>
+					<td><input type="checkbox" name="chk_fac_member" value="Yes" /></td>
+				</tr>
+				
+			</table>
+			<input type="submit" value="Send to Server!">
+		</form>
+		<hr>
+		<p>Once data has been processed by the server, it will be sent back
+			for your review.</p>
+
+	</div>
+</body>
+
+</html>

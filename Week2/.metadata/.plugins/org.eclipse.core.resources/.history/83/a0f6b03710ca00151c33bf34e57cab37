@@ -1,0 +1,8 @@
+<?php
+$uname = $_POST[txtName]
+?>
+<html>
+	<body>
+	<h2>Hola<?php print $uname?></h2>
+	</body>
+</html>

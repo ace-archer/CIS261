@@ -1,0 +1,17 @@
+<?php
+if (isset($_REQUEST["txtMPH"])){
+	if (is_numeric($_REQUEST["txtMPH"])){
+		if (($_REQUEST["txtMPH"]>=0)){
+			$txtMPH=($_REQUEST["txtMPH"]);	
+		}
+		else{
+		$errMSG="Error! MPH is less than 0!";
+		}
+	}
+	else{
+	
+	}
+}
+else{
+	
+}

@@ -1,0 +1,15 @@
+<!-- 			<p>Enter Name: <input type="text" name="txtName"></p>
+			<p>Enter Email: <input type="email" name="txtEmail"></p>
+			<p>Enter Date: <input type="date" name="txtDate"></p>
+			<p>Enter Color: <input type="color" name="txtColor"></p>
+			<p>Enter Phone Number: <input type="tel" name="txtTel"></p> -->
+<?php
+$uname = $_POST["txtName"];
+$uemail = $_POST["txtEmail"]
+
+?>
+<html>
+	<body>
+	<h2>Hola <?php echo $uname?></h2>
+	</body>
+</html>

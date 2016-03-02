@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<form action="Week2_Part2.php" method = "post">
+			<p>Enter Name: <input type="text" name="txtName"></p>
+			<p>Enter Email: <input type="email" name="txtEmail"></p>
+			<p>Enter Date: <input type="date" name="txtDate"></p>
+			<input type="submit" value="Send Data"></input>
+			
+		</form>>
+	</body>
+</html>

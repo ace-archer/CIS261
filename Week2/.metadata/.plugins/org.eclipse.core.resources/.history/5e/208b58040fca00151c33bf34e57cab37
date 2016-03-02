@@ -1,0 +1,8 @@
+<html>
+	<body>
+		<form action="Week2_Part2.php" method = "post">
+			<p>Enter Name: <input type="text" name="txtName"></p>
+			<input type="submit" value "Send Data"></input>
+		</form>>
+	</body>
+</html>

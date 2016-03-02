@@ -1,8 +1,0 @@
-<?php
-$uname = $_GET[txtName]
-?>
-<html>
-	<body>
-	<h2>Hola</h2>
-	</body>
-</html>
